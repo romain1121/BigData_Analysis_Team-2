@@ -2,5 +2,5 @@
 *.ipynb filter=nbstripout
 *.ipynb diff=ipynb
 
-# 최종 제출 Notebook은 output 유지
+# Keep outputs in final notebooks
 notebooks/final/** filter= diff=
