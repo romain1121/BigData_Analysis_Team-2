@@ -1,0 +1,6 @@
+# Strip outputs from experiment notebooks
+*.ipynb filter=nbstripout
+*.ipynb diff=ipynb
+
+# 최종 제출 Notebook은 output 유지
+notebooks/final/** filter= diff=

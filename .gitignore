@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Test / Lint cache
+# =========================
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data
+# =========================
+data/
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+artifacts/
+models/
+checkpoints/
+
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Local configuration
+# =========================
+configs/config.local.*
+configs/*.local.yaml
+configs/*.local.yml
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Personal files
+# =========================
+.agents/
+.serena/
+.specify/
+specs/

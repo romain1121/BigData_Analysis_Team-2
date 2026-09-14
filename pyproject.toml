@@ -1,0 +1,32 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = [
+    "notebooks",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # Pyflakes
+    "I",  # import sorting
+    "B",  # common bug patterns
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    ".",
+]
+addopts = [
+    "-ra",
+    "-q",
+    "--strict-markers",
+]
+
+markers = [
+    "integration: tests requiring external data, network, or external services",
+    "gpu: tests requiring a CUDA-capable GPU",
+]
