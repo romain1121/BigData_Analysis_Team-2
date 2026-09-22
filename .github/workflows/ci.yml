@@ -43,7 +43,7 @@ jobs:
 
       - name: Run Ruff
         run: |
-          ruff check src scripts tests
+          ruff check .
 
       - name: Check notebook outputs
         run: |
